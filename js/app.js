@@ -21,11 +21,11 @@ sumar2();
 
 ////funciones nativas en javaScript*////func
 
-alert('hubo un error');
+/*alert('hubo un error');
 
 prompt('¿cuál es tu edad?');
 
-console.log(parseInt('31416'));
+console.log(parseInt('31416'));*/
 
 
 ////diferencia entre método y función////
@@ -39,10 +39,24 @@ console.log(parseInt(numero1)); //Esto es una función en
 console.log(numero2.toString()); //esto es un método
 
 
-///parámetros y argumentos en funciones////////////////////////////////
+///parámetros y argumentos en funcione////////////////////////////////
 
 function multiplicar(a, b) {  // a y b son parametros
     console.log(a * b);
 }
 
 multiplicar(8, 5);  // 8 y 5 son argumentos
+
+multiplicar(134, 321);
+
+multiplicar(8, 13);  //se puede reutilizar
+
+function saludar(nombre, apellido) {
+    console.log(`Hola ${nombre} ${apellido}`);
+}
+
+saludar('Eduardo', 'Guevara');
+
+saludar('Juan', 'Perez');
+
+saludar('Roberto', 'Torres');
