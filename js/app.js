@@ -25,4 +25,15 @@ alert('hubo un error');
 
 prompt('¿cuál es tu edad?');
 
-console.log(parseInt('3.1416'));
+console.log(parseInt('31416'));
+
+
+////diferencia entre método y función////
+
+
+const numero1 = 20;
+const numero2 = '330';
+
+console.log(parseInt(numero1)); //Esto es una función en
+
+console.log(numero2.toString()); //esto es un método
