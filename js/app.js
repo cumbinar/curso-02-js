@@ -17,3 +17,12 @@ const sumar2 = function() {
     console.log(3 + 5);
 }
 sumar2();
+
+
+////funciones nativas en javaScript*////func
+
+alert('hubo un error');
+
+prompt('¿cuál es tu edad?');
+
+console.log(parseInt('3.1416'));
