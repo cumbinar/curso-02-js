@@ -37,3 +37,12 @@ const numero2 = '330';
 console.log(parseInt(numero1)); //Esto es una función en
 
 console.log(numero2.toString()); //esto es un método
+
+
+///parámetros y argumentos en funciones////////////////////////////////
+
+function multiplicar(a, b) {  // a y b son parametros
+    console.log(a * b);
+}
+
+multiplicar(8, 5);  // 8 y 5 son argumentos
