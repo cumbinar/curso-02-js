@@ -39,7 +39,7 @@ console.log(parseInt(numero1)); //Esto es una función en
 console.log(numero2.toString()); //esto es un método
 
 
-///parámetros y argumentos en funcione////////////////////////////////
+///parámetros y argumentos en funciones////////////////////////////////
 
 function multiplicar(a, b) {  // a y b son parametros
     console.log(a * b);
@@ -60,3 +60,18 @@ saludar('Eduardo', 'Guevara');
 saludar('Juan', 'Perez');
 
 saludar('Roberto', 'Torres');
+
+
+//parámetros por dafault////
+
+
+function saludar1(nombre1 = 'Sin nombre', apellido1 = 'No tiene apellido') {
+    console.log(`Hola ${nombre1} ${apellido1}`);
+} /*se agrega por defecto si no se coloca un argumento*/
+
+saludar1('Cumbitara');
+
+saludar1('Eduardo', 'Guevara');
+
+saludar1();
+
