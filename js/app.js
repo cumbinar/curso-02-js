@@ -75,3 +75,10 @@ saludar1('Eduardo', 'Guevara');
 
 saludar1();
 
+
+//cómo se comunican las funciones////
+function iniciarApp() {
+    console.log('iniciando app...');
+}
+
+iniciarApp();
