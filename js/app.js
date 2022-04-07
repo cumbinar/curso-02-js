@@ -87,3 +87,22 @@ function usuarioAutenticado(usuario) {
     console.log('Autenticando Usuario....Espera');
     console.log(`Autenticación exitosa: ${usuario}`);
 }
+
+
+//añadir funciones a un objeto////////////////////////////////
+
+const reproductor = {
+    reproducir: function (id) {
+        console.log(`en reproducción la canción ${id}`);
+    },
+
+        pausar: function() {
+            console.log('pausando')
+    }
+    
+}
+
+reproductor.reproducir(30);
+reproductor.reproducir(38);
+reproductor.reproducir(3025);
+reproductor.pausar();
