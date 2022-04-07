@@ -78,7 +78,12 @@ saludar1();
 
 //cómo se comunican las funciones////
 function iniciarApp() {
-    console.log('iniciando app...');
+    usuarioAutenticado('Cumbi'); //llama a la función posterior, una función dentro de otra función///
 }
 
 iniciarApp();
+
+function usuarioAutenticado(usuario) {
+    console.log('Autenticando Usuario....Espera');
+    console.log(`Autenticación exitosa: ${usuario}`);
+}
