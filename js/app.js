@@ -136,3 +136,12 @@ aprendiendo2();
 const aprendiendo3 = () => 'Aprendiendo timbales con Cumbi';
 
 console.log(aprendiendo3());
+
+//Parámetros y argumentos en arrow functions///
+
+const aprendiendo4 = (tecnologia, tecnologia2) => `Estoy aprendiendo ${tecnologia} y ${tecnologia2}`;
+
+console.log(aprendiendo4('JavaScript', 'Node.js'));
+console.log(aprendiendo4('python', 'html'));
+console.log(aprendiendo4('scss', 'css'));
+console.log(aprendiendo4('Java', 'gulp'));
