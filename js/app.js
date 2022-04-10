@@ -145,3 +145,23 @@ console.log(aprendiendo4('JavaScript', 'Node.js'));
 console.log(aprendiendo4('python', 'html'));
 console.log(aprendiendo4('scss', 'css'));
 console.log(aprendiendo4('Java', 'gulp'));
+
+
+//arrow functions en un forEach y un map///
+
+const carrito = [
+    { nombre: 'Monitor 27 pulgadas', precio: 2567 },
+    { nombre: 'Televisor', precio: 2567 },
+    { nombre: 'Smart Phone', precio: 56807 },
+    { nombre: 'Tablet', precio: 2567 },
+    { nombre: 'altavoz', precio: 67 },
+    { nombre: 'Teclado', precio: 857}
+]
+
+const nuevoArreglo = carrito.map(producto => `${producto.nombre} - Precio: ${producto.precio}`);
+
+console.log(nuevoArreglo);
+
+carrito.forEach(producto => {
+    console.log(`${producto.nombre} - Precio: ${producto.precio}`);
+})
