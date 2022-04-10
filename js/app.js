@@ -162,6 +162,4 @@ const nuevoArreglo = carrito.map(producto => `${producto.nombre} - Precio: ${pro
 
 console.log(nuevoArreglo);
 
-carrito.forEach(producto => {
-    console.log(`${producto.nombre} - Precio: ${producto.precio}`);
-})
+carrito.forEach( producto => console.log(`${producto.nombre} - Precio: ${producto.precio}`));
