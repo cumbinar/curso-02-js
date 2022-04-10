@@ -163,3 +163,21 @@ const nuevoArreglo = carrito.map(producto => `${producto.nombre} - Precio: ${pro
 console.log(nuevoArreglo);
 
 carrito.forEach( producto => console.log(`${producto.nombre} - Precio: ${producto.precio}`));
+
+
+//otras opciones de arrow functions////////
+
+const miMusica = {
+    play: id => console.log(`Reproduciendo canción con el id ${id}`),
+    detener: () => console.log('Pausando..'),
+    borrar: id => console.log(`Borando la canción con el id ${id}`),
+    crearCancionero: nombre => console.log(`Creando la playlist de ${nombre}`),
+    reproducirCancionero: nombre => console.log(`Reproducuiendo la playlist de ${nombre}`)
+
+}
+
+miMusica.play(555);
+miMusica.detener();
+miMusica.borrar(567);
+miMusica.crearCancionero('Salsa');
+miMusica.reproducirCancionero('Chucuchucu');
