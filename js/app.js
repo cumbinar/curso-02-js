@@ -102,7 +102,20 @@ const reproductor = {
     
 }
 
-reproductor.reproducir(30);
+reproductor.reproducir(3750);
 reproductor.reproducir(38);
 reproductor.reproducir(3025);
 reproductor.pausar();
+
+
+const listaCanciones = {
+    cancionero: function(ritmo) {
+        console.log(`Lista de Cumbi, temas ${ritmo}`);
+    }
+}
+
+listaCanciones.cancionero("salsa");
+listaCanciones.cancionero("merengue");
+listaCanciones.cancionero("chucuchucu");
+listaCanciones.cancionero("carrilera");
+listaCanciones.cancionero("carranga");
