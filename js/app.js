@@ -119,3 +119,20 @@ listaCanciones.cancionero("merengue");
 listaCanciones.cancionero("chucuchucu");
 listaCanciones.cancionero("carrilera");
 listaCanciones.cancionero("carranga");
+
+
+//arrow functions////////////////////////////////////////////////////////////////
+
+const aprendiendo = function(){
+    console.log('Aprendiendo JavaScript');
+} /*esta es la forma de función tipo expresión*/
+
+aprendiendo();
+
+const aprendiendo2 = () => console.log('Esta es una arrow function');
+/*esta es una arrow function*/
+aprendiendo2();
+
+const aprendiendo3 = () => 'Aprendiendo timbales con Cumbi';
+
+console.log(aprendiendo3());
